@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="WpfControlLibrary1.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfControlLibrary1"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="69,58,0,0" TextWrapping="Wrap" 
+                 Text="{Binding Freq2, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:UserControl1}}, UpdateSourceTrigger=PropertyChanged}" 
+                 VerticalAlignment="Top" Width="120"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="649,62,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</UserControl>
