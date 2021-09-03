@@ -10,6 +10,9 @@
         <TextBox HorizontalAlignment="Left" Height="23" Margin="69,58,0,0" TextWrapping="Wrap" 
                  Text="{Binding Freq2, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:UserControl1}}, UpdateSourceTrigger=PropertyChanged}" 
                  VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Height="23" Margin="69,100,0,0" TextWrapping="Wrap" 
+                 Text="{Binding Freq, UpdateSourceTrigger=PropertyChanged}" 
+                 VerticalAlignment="Top" Width="120"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="649,62,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>

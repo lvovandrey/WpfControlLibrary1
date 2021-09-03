@@ -48,6 +48,7 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="INotyfyPropertyChanged.cs" />
     <Compile Include="VM.cs" />
     <Page Include="UserControl1.xaml">
       <Generator>MSBuild:Compile</Generator>
